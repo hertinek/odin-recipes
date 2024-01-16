@@ -8,15 +8,37 @@
     font-family: "Times New Roman", sans-serif;
 }
 
+/* * {
+    border: solid 1px red;
+} */
+
 body {
-    max-width: 700px;
-    width: 70vw;
-    margin: auto;
+background-color: black;
+margin: 10px 0;
+}
+
+button {
+    background-color: black;
+    position: fixed;
+    height: max-content;
+    width: max-content;
+    max-width: 10%;
+    top: 30px;
+    right: 76%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
 }
 
 .trunk {
     background-image: url(../images/oriental-tiles.png);
     border-radius: 30px;
+    margin-right: 25%;
+    margin-left: 25%;
     padding: 15px;
 }
 
@@ -25,10 +47,16 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
-    margin: 0;
     margin-bottom: 20px;
     border-radius: 30px 30px 0 0;
 }
+
+/* header,
+.description,
+.ingredients,
+.steps {
+    margin: 15px;
+} */
 
 h1 {
     font-family: Necromancer;
@@ -88,8 +116,4 @@ article {
 .steps {
     background-color: lightblue;
     border-radius: 0 0 30px 30px;
-}
-
-button {
-    margin: 20px 0px 30px 0px;
 }
